@@ -1,0 +1,37 @@
+# ESP-IDF build artifacts
+build/
+*.bin
+*.elf
+*.map
+*.hex
+
+# sdkconfig backup
+sdkconfig.old
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor files
+*.swp
+*.swo
+*.sublime*
+*.vscode/
+.idea/
+
+# macOS & Linux trash files
+.DS_Store
+Thumbs.db
+
+# Logs or debug output
+*.log
+
+# Temporary files
+*.bak
+*.tmp
+
+# ESP-IDF-specific
+project_description.json
+flash_project_args.json
+flash_args.json
